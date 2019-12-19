@@ -21,8 +21,9 @@ variable "lien" {
 }
 
 variable "random_project_id" {
-  description = "Adds a suffix of 2 random characters to the `project_id`"
-  default     = "false"
+  description = "Adds a suffix of 4 random characters to the `project_id`"
+  type        = bool
+  default     = false
 }
 
 variable "org_id" {
